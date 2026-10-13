@@ -1,0 +1,21 @@
+{
+  "name": "elaris-theme",
+  "displayName": "Elaris",
+  "description": "A calm, minimal dark color theme for a focused development experience, featuring muted greens, warm neutrals, and subtle, balanced accents.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elaris Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elaris-color-theme.json"
+      }
+    ]
+  }
+}

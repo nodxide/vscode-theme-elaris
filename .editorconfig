@@ -1,0 +1,50 @@
+# EditorConfig: https://editorconfig.org
+root = true
+
+# Default settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# JSON and JSON with comments
+[*.{json,jsonc}]
+indent_style = space
+indent_size = 2
+
+# Markdown documentation
+# Preserve trailing whitespace for intentional Markdown
+# hard line breaks.
+[*.md]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+
+# YAML configuration and GitHub Actions
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# JavaScript, TypeScript, CSS, HTML, and XML
+[*.{js,jsx,ts,tsx,mjs,cjs,css,scss,html,xml,svg}]
+indent_style = space
+indent_size = 2
+
+# Justfiles require literal tabs
+[Just]
+indent_style = tab
+
+# Lockfiles and package metadata
+[package-lock.json]
+indent_style = space
+indent_size = 2
+
+[*.lock]
+indent_style = space
+indent_size = 2
