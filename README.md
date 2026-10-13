@@ -98,7 +98,7 @@ A complete palette reference for the supplied **Elaris** VS Code dark theme. Thi
 
 |                      Swatch                       | Color             | Token           | HEX       | RGB                  | Description                                                                                        |
 | :-----------------------------------------------: | ----------------- | --------------- | --------- | -------------------- | -------------------------------------------------------------------------------------------------- |
-|  ![Lichen Green](palette/icons/lichen-green.svg)  | **Lichen Green**  | `accent.moss`   | `#A8C58D` | `rgb(168, 197, 141)` | The signature Veyera accent for functions, success states, active indicators, and primary actions. |
+|  ![Lichen Green](palette/icons/lichen-green.svg)  | **Lichen Green**  | `accent.moss`   | `#A8C58D` | `rgb(168, 197, 141)` | The signature Elaris accent for functions, success states, active indicators, and primary actions. |
 | ![Oxidized Teal](palette/icons/oxidized-teal.svg) | **Oxidized Teal** | `accent.teal`   | `#7EADA5` | `rgb(126, 173, 165)` | A cool, weathered teal for properties, informational states, and secondary syntax accents.         |
 |    ![Quiet Mint](palette/icons/quiet-mint.svg)    | **Quiet Mint**    | `accent.mint`   | `#8EBEAE` | `rgb(142, 190, 174)` | A lighter green-blue for links, hints, constants, and subtle semantic distinctions.                |
 |    ![Soft Brass](palette/icons/soft-brass.svg)    | **Soft Brass**    | `accent.brass`  | `#D5B879` | `rgb(213, 184, 121)` | A warm, muted gold for types, warnings, booleans, and the editor cursor.                           |
