@@ -4,7 +4,7 @@
   "description": "A calm, minimal dark color theme for a focused development experience, featuring muted greens, warm neutrals, and subtle, balanced accents.",
   "version": "0.0.1",
   "publisher": "nodxide",
-  "icon": "assets/elaris_logo.png",
+  "icon": "assets/elaris_gradient_logo_120x120.png",
   "engines": {
     "vscode": "^1.140.0"
   },
