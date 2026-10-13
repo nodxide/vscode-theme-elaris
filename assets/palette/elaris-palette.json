@@ -1,7 +1,7 @@
 {
-  "name": "Veyera Dark",
+  "name": "Elaris",
   "variant": "dark",
-  "description": "A calm dark palette built from forest-charcoal surfaces, sage neutrals, and muted mineral accents.",
+  "description": "A refined developer color theme featuring balanced contrast, cohesive syntax colors, and a minimal aesthetic for a calmer, more focused coding experience.",
   "colors": {
     "background.abyss": {
       "name": "Forest Ink",
