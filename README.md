@@ -1,7 +1,7 @@
 <h1 align="center">Elaris Color Theme</h1>
 
 <p align="center">
-  <img src="assets/elaris_logo.png" alt="Elaris logo" >
+  <img src="assets/elaris_logo.svg" alt="Elaris logo" width="318">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/code_preview.png" alt="Elaris color theme code preview" width="1020">
+  <img src="assets/elaris_code_preview.png" alt="Elaris color theme code preview" width="1020">
 </p>
 
 <p align="center">
