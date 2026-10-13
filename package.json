@@ -3,6 +3,8 @@
   "displayName": "Elaris",
   "description": "A calm, minimal dark color theme for a focused development experience, featuring muted greens, warm neutrals, and subtle, balanced accents.",
   "version": "0.0.1",
+  "publisher": "nodxide",
+  "icon": "assets/elaris_logo.png",
   "engines": {
     "vscode": "^1.140.0"
   },
@@ -17,5 +19,13 @@
         "path": "./themes/elaris-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodxide/elaris.git"
+  },
+  "homepage": "https://github.com/nodxide/elaris#readme",
+  "bugs": {
+    "url": "https://github.com/nodxide/elaris/issues"
   }
 }
