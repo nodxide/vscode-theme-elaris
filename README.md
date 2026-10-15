@@ -1,8 +1,8 @@
-<h1 align="center">Elaris VSCode Color Theme</h1>
-
 <p align="center">
   <img src="assets/logo/elaris-logo-158.png" alt="Elaris logo" width="158" height="158">
 </p>
+
+<h1 align="center">Elaris VSCode Color Theme</h1>
 
 <p align="center">
   <a href="https://github.com/nodxide/vscode-theme-elaris">
@@ -47,9 +47,7 @@
 </p>
 
 <p align="center">
-  <a href="palette/Elaris/palette.md">Color palette</a>
-  ◦
-  <a href="https://github.com/be5invis/Iosevka">Iosevka Font</a>
+  <a href="https://github.com/be5invis/Iosevka">Font - Iosevka</a>
 </p>
 
 <p align="center"><em>Less visual noise. More attention on the code.</em></p>
@@ -84,11 +82,7 @@ Elaris styles more than syntax. Selections, bracket matching, search results, in
 
 <h2 align="center">Color palette</h2>
 
-Elaris uses a compact color system with distinct roles for interface surfaces, readable text, syntax, and diagnostics. The complete reference—including HEX values and the intended use of each core color—is maintained separately to keep this README focused.
-
-**[View the Elaris color palette](palette/Elaris/palette.md)**
-
-The theme definition also uses transparency variants for selections, highlights, borders, and other interface states. For the full token-level implementation, see [`themes/elaris-color-theme.json`](themes/elaris-color-theme.json).
+Elaris uses a compact color system with distinct roles for interface surfaces, readable text, syntax, and diagnostics. The [complete reference](palette/Elaris/palette.md)—including HEX values and the intended use of each core color—is maintained separately to keep this README focused.
 
 <h2 align="center">Preview Elaris locally</h2>
 
