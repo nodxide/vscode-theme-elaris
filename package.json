@@ -41,8 +41,6 @@
     ]
   },
   "scripts": {
-    "check": "tsx scripts/check.ts",
-    "typecheck:scripts": "tsc --noEmit -p tsconfig.scripts.json",
     "package:vsix": "tsx scripts/package.ts",
     "install:local": "tsx scripts/install-local.ts"
   },

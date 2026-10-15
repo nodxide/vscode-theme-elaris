@@ -5,19 +5,35 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=nodxide.vscode-theme-elaris">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/nodxide.vscode-theme-elaris?style=flat-square&label=version&logo=visualstudiocode&logoColor=C0A5D9&labelColor=17171D&color=252530" alt="Marketplace version">
+  <a href="https://github.com/nodxide/vscode-theme-elaris">
+    <img
+      src="https://img.shields.io/badge/Visual_Studio_Code-Color_Theme-252530?style=for-the-badge&logo=visualstudiocode&logoColor=C0A5D9&labelColor=17171D"
+      alt="Visual Studio Code Theme"
+    >
   </a>
-  <img src="https://img.shields.io/visual-studio-marketplace/i/nodxide.vscode-theme-elaris?style=flat-square&label=installs&logo=download&logoColor=D0D49A&labelColor=17171D&color=252530" alt="Marketplace installs">
-  <img src="https://img.shields.io/visual-studio-marketplace/r/nodxide.vscode-theme-elaris?style=flat-square&label=rating&logo=star&logoColor=DFA486&labelColor=17171D&color=252530" alt="Marketplace rating">
+  <img
+    src="https://img.shields.io/badge/Dark-Interface-252530?style=for-the-badge&logo=visualstudiocode&logoColor=D0D49A&labelColor=17171D"
+    alt="Dark Interface"
+  >
+  <img
+    src="https://img.shields.io/badge/Pastel-Color_Palette-252530?style=for-the-badge&labelColor=17171D"
+    alt="Pastel Color Palette"
+  >
 </p>
 
 <p align="center">
-  <a href="https://github.com/OWNER/REPOSITORY/stargazers">
-    <img src="https://img.shields.io/github/stars/nodxide/vscode-theme-elaris?style=flat-square&label=stars&logo=github&logoColor=C0A5D9&labelColor=17171D&color=252530" alt="GitHub stars">
+  <a href="https://github.com/nodxide/vscode-theme-elaris/stargazers">
+    <img
+      src="https://img.shields.io/github/stars/nodxide/vscode-theme-elaris?style=for-the-badge&logo=github&logoColor=C0A5D9&labelColor=17171D&color=252530"
+      alt="GitHub Stars"
+    >
   </a>
-  <img src="https://img.shields.io/github/license/nodxide/vscode-theme-elaris?style=flat-square&label=license&labelColor=17171D&color=252530" alt="License">
-  <img src="https://img.shields.io/badge/theme-dark-252530?style=flat-square&labelColor=17171D&logo=visualstudiocode&logoColor=D0D49A" alt="Dark theme">
+  <a href="https://github.com/nodxide/vscode-theme-elaris/blob/main/LICENSE">
+    <img
+      src="https://img.shields.io/github/license/nodxide/vscode-theme-elaris?style=for-the-badge&labelColor=17171D&color=252530"
+      alt="License"
+    >
+  </a>
 </p>
 
 <p align="center">
@@ -32,17 +48,15 @@
 
 <p align="center">
   <a href="palette/Elaris/palette.md">Color palette</a>
-  ○
+  ◦
   <a href="https://github.com/be5invis/Iosevka">Iosevka Font</a>
-  ○
-  <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.flow-icons">Flow Icons(flow-you)</a>
 </p>
 
 <p align="center"><em>Less visual noise. More attention on the code.</em></p>
 
 ---
 
-## Overview
+<h2 align="center">Overview</h2>
 
 Elaris is a dark color theme for Visual Studio Code built around one principle: **the interface should support the code, not compete with it.**
 
@@ -50,7 +64,7 @@ The theme combines a near-black charcoal editor with warm off-white text, muted 
 
 That visual language continues throughout the workbench — from tabs and sidebars to terminal output, diagnostics, source control, diffs, debugging, tests, and notebooks. The aim is a cohesive workspace where hierarchy stays clear and emphasis is used intentionally.
 
-## Design principles
+<h2 align="center">Design principles</h2>
 
 ### A clear visual hierarchy
 
@@ -68,19 +82,7 @@ Lime is reserved for focus and active states. Teal, sage, blue, lilac, amber, an
 
 Elaris styles more than syntax. Selections, bracket matching, search results, inlay hints, suggestions, Git decorations, merge states, terminal output, debugging, tests, and notebook cells are designed to feel like parts of the same workbench.
 
-## Highlights
-
-- **Deep charcoal surfaces** with warm, readable foregrounds.
-- **Semantic highlighting** for supported semantic tokens, complemented by TextMate grammar rules.
-- **Broad syntax coverage** with language-specific rules for programming, markup, query, configuration, and infrastructure languages.
-- **Cohesive workbench styling** across tabs, sidebars, panels, menus, notifications, inputs, terminals, and editor widgets.
-- **Developer-state colors** for errors, warnings, Git changes, diffs, merge conflicts, debugging, tests, and notebooks.
-- **Subtle active-line highlighting** that helps track the cursor without creating a prominent stripe.
-- **Consistent terminal colors** with a coordinated ANSI palette.
-
-Syntax highlighting depends on the language grammar and, where applicable, semantic-token support from installed language vscode-theme-elariss and language servers. Exact highlighting can therefore vary between languages and vscode-theme-elariss.
-
-## Color palette
+<h2 align="center">Color palette</h2>
 
 Elaris uses a compact color system with distinct roles for interface surfaces, readable text, syntax, and diagnostics. The complete reference—including HEX values and the intended use of each core color—is maintained separately to keep this README focused.
 
@@ -88,7 +90,7 @@ Elaris uses a compact color system with distinct roles for interface surfaces, r
 
 The theme definition also uses transparency variants for selections, highlights, borders, and other interface states. For the full token-level implementation, see [`themes/elaris-color-theme.json`](themes/elaris-color-theme.json).
 
-## Preview Elaris locally
+<h2 align="center">Preview Elaris locally</h2>
 
 To run the theme from source in the VS Code vscode-theme-elaris Development Host:
 
@@ -106,13 +108,13 @@ To run the theme from source in the VS Code vscode-theme-elaris Development Host
 
 For vscode-theme-elaris packaging and publishing, consult the [VS Code vscode-theme-elaris publishing documentation](https://code.visualstudio.com/api/working-with-vscode-theme-elariss/publishing-vscode-theme-elaris).
 
-## Contributing
+<h2 align="center">Contributing</h2>
 
 Bug reports, suggestions, and focused improvements are welcome. When reporting a visual issue, identify the affected token or workbench element, describe the current and expected behavior, and include a screenshot or minimal reproducible example where practical.
 
 Contributions should preserve Elaris's visual hierarchy and the distinction between syntax roles. Prefer refining an existing assignment over introducing a new accent without a clear functional reason. When changing shared colors, review both code syntax and workbench states to avoid unintended side effects.
 
-## License
+<h2 align="center">License</h2>
 
 Elaris is distributed under the terms specified in [`LICENSE`](LICENSE). Review that file for the applicable conditions on use, modification, and redistribution.
 
