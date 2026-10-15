@@ -1,132 +1,124 @@
-<h1 align="center">Elaris Color Theme</h1>
+<h1 align="center">Elaris VSCode Color Theme</h1>
 
 <p align="center">
-  <img src="assets/elaris_logo.svg" alt="Elaris logo" width="318">
+  <img src="assets/logo/elaris-logo-158.png" alt="Elaris logo" width="158" height="158">
 </p>
 
 <p align="center">
-  <strong>A refined color theme for a calmer, more focused coding experience.</strong>
+  <a href="https://marketplace.visualstudio.com/items?itemName=nodxide.vscode-theme-elaris">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/nodxide.vscode-theme-elaris?style=flat-square&label=version&logo=visualstudiocode&logoColor=C0A5D9&labelColor=17171D&color=252530" alt="Marketplace version">
+  </a>
+  <img src="https://img.shields.io/visual-studio-marketplace/i/nodxide.vscode-theme-elaris?style=flat-square&label=installs&logo=download&logoColor=D0D49A&labelColor=17171D&color=252530" alt="Marketplace installs">
+  <img src="https://img.shields.io/visual-studio-marketplace/r/nodxide.vscode-theme-elaris?style=flat-square&label=rating&logo=star&logoColor=DFA486&labelColor=17171D&color=252530" alt="Marketplace rating">
 </p>
 
 <p align="center">
-  Thoughtfully balanced colors, restrained accents, and cohesive syntax highlighting — designed to bring clarity and visual harmony to your everyday development workflow.
+  <a href="https://github.com/OWNER/REPOSITORY/stargazers">
+    <img src="https://img.shields.io/github/stars/nodxide/vscode-theme-elaris?style=flat-square&label=stars&logo=github&logoColor=C0A5D9&labelColor=17171D&color=252530" alt="GitHub stars">
+  </a>
+  <img src="https://img.shields.io/github/license/nodxide/vscode-theme-elaris?style=flat-square&label=license&labelColor=17171D&color=252530" alt="License">
+  <img src="https://img.shields.io/badge/theme-dark-252530?style=flat-square&labelColor=17171D&logo=visualstudiocode&logoColor=D0D49A" alt="Dark theme">
 </p>
 
 <p align="center">
-  <img src="assets/elaris_code_preview.png" alt="Elaris color theme code preview" width="1020">
+  <strong>
+    Charcoal surfaces, warm neutrals, and restrained mineral accents — designed to make code easier to scan without turning the editor into a light show.
+  </strong>
 </p>
 
 <p align="center">
-  <samp>
-    Font — <a href="https://github.com/be5invis/Iosevka">Iosevka</a><br>
-    File Icons — <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.flow-icons">Flow Icons(flow-you)</a><br>
-    Demo — <a href="https://github.com/nodxide/vscode-theme-elaris">Elaris</a>
-  </samp>
+  <img src="assets/elaris-theme-code-preview.png" alt="Elaris color theme code preview" width="1020">
 </p>
 
 <p align="center">
-  <em>Less visual noise. More focus on the code.</em>
+  <a href="palette/Elaris/palette.md">Color palette</a>
+  ○
+  <a href="https://github.com/be5invis/Iosevka">Iosevka Font</a>
+  ○
+  <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.flow-icons">Flow Icons(flow-you)</a>
 </p>
+
+<p align="center"><em>Less visual noise. More attention on the code.</em></p>
 
 ---
 
 ## Overview
 
-Elaris is a carefully crafted editor color theme built around a simple idea: **the interface should support your work, not compete with it.**
+Elaris is a dark color theme for Visual Studio Code built around one principle: **the interface should support the code, not compete with it.**
 
-Designed for developers who appreciate understated aesthetics and a consistent visual environment, Elaris combines deep, muted backgrounds with readable foregrounds and deliberately chosen syntax colors. Its palette aims to establish a clear visual hierarchy, helping code remain the primary focus while keeping the surrounding interface cohesive.
+The theme combines a near-black charcoal editor with warm off-white text, muted lavender-gray neutrals, and a deliberate set of mineral-inspired syntax accents. Each color has a role: soft lime identifies focus and active states, teal distinguishes properties and links, sage colors strings, cool blue marks types, lilac highlights language keywords, amber identifies literals, and copper adds warmth to selected syntax. Coral is reserved for errors and destructive states.
 
-Rather than relying on excessive saturation or harsh contrasts between interface elements, Elaris takes a more restrained approach. Backgrounds, borders, interactive states, and syntax accents are selected to work together as parts of a unified color system.
+That visual language continues throughout the workbench — from tabs and sidebars to terminal output, diagnostics, source control, diffs, debugging, tests, and notebooks. The aim is a cohesive workspace where hierarchy stays clear and emphasis is used intentionally.
 
-The result is a theme designed for everyday development — from navigating large codebases to writing small scripts, reviewing changes, and working through complex problems.
+## Design principles
 
-## Design Philosophy
+### A clear visual hierarchy
 
-### Clarity over decoration
+The editor uses the darkest surface in the workbench. Sidebars, panels, menus, and completion widgets sit on subtly lighter layers. Fine borders and restrained hover states add structure without heavy outlines.
 
-Every color should have a purpose. Interface elements remain visually organized without unnecessary emphasis, while syntax colors help distinguish language constructs naturally.
+### Syntax colors with distinct roles
 
-### Balance over intensity
+Keywords, functions, types, properties, strings, literals, parameters, comments, and diagnostics use recognizable color roles. This separation helps the eye identify code structure without making every token equally prominent.
 
-The palette uses considered relationships between backgrounds, foregrounds, and accents to create a consistent visual experience without overwhelming the editor.
+### Accents with restraint
 
-### Consistency across the interface
+Lime is reserved for focus and active states. Teal, sage, blue, lilac, amber, and copper provide useful distinctions, while coral communicates errors. The accents work together as a system rather than as isolated decoration.
 
-Editor surfaces, panels, borders, selections, and syntax highlighting should feel like parts of the same design system rather than independent collections of colors.
+### Designed for real workflows
 
-### Comfort for everyday development
+Elaris styles more than syntax. Selections, bracket matching, search results, inlay hints, suggestions, Git decorations, merge states, terminal output, debugging, tests, and notebook cells are designed to feel like parts of the same workbench.
 
-A development environment is something you may look at for hours. Elaris aims for a restrained appearance that keeps attention on the work and avoids unnecessary visual clutter.
+## Highlights
 
-## Features
+- **Deep charcoal surfaces** with warm, readable foregrounds.
+- **Semantic highlighting** for supported semantic tokens, complemented by TextMate grammar rules.
+- **Broad syntax coverage** with language-specific rules for programming, markup, query, configuration, and infrastructure languages.
+- **Cohesive workbench styling** across tabs, sidebars, panels, menus, notifications, inputs, terminals, and editor widgets.
+- **Developer-state colors** for errors, warnings, Git changes, diffs, merge conflicts, debugging, tests, and notebooks.
+- **Subtle active-line highlighting** that helps track the cursor without creating a prominent stripe.
+- **Consistent terminal colors** with a coordinated ANSI palette.
 
-- **Refined dark aesthetic** — muted surfaces and carefully balanced foreground colors.
-- **Purposeful syntax highlighting** — distinct color roles for common programming-language constructs.
-- **Cohesive interface styling** — a consistent palette across editor UI elements and workbench surfaces.
-- **Restrained accent colors** — emphasis where it matters without making every element compete for attention.
-- **Minimal visual noise** — a clean foundation for focused development.
-- **Maintainable color system** — organized theme definitions intended to support consistent updates and future refinements.
+Syntax highlighting depends on the language grammar and, where applicable, semantic-token support from installed language vscode-theme-elariss and language servers. Exact highlighting can therefore vary between languages and vscode-theme-elariss.
 
-## Elaris Dark — Color Palette
+## Color palette
 
-A complete palette reference for the supplied **Elaris** VS Code dark theme. This document includes every distinct solid color and the intentional 8-digit alpha color variants documented from the theme JSON.
+Elaris uses a compact color system with distinct roles for interface surfaces, readable text, syntax, and diagnostics. The complete reference—including HEX values and the intended use of each core color—is maintained separately to keep this README focused.
 
-### Backgrounds & surfaces
+**[View the Elaris color palette](palette/Elaris/palette.md)**
 
-## Backgrounds & borders
+The theme definition also uses transparency variants for selections, highlights, borders, and other interface states. For the full token-level implementation, see [`themes/elaris-color-theme.json`](themes/elaris-color-theme.json).
 
-|                                                     Icon                                                      | Name                      | Token                  | HEX       | RGB               | Description                                                                              |
-| :-----------------------------------------------------------------------------------------------------------: | ------------------------- | ---------------------- | --------- | ----------------- | ---------------------------------------------------------------------------------------- |
-|            <img src="assets/palette/icons/forest-ink.png" alt="Forest Ink" width="28" height="28">            | **Forest Ink**            | `background.abyss`     | `#171D1B` | `rgb(23, 29, 27)` | The deepest forest-charcoal; reserved for title bars and the darkest interface surfaces. |
-|           <img src="assets/palette/icons/deep-forest.png" alt="Deep Forest" width="28" height="28">           | **Deep Forest**           | `background.sidebar`   | `#1D2521` | `rgb(29, 37, 33)` | A deep green-black that gives sidebars and navigation areas a distinct layer.            |
-|                <img src="assets/palette/icons/canopy.png" alt="Canopy" width="28" height="28">                | **Canopy**                | `background.editor`    | `#222C26` | `rgb(34, 44, 38)` | The primary editor and terminal background: dark, green-tinted, and easy on the eyes.    |
-|          <img src="assets/palette/icons/moss-surface.png" alt="Moss Surface" width="28" height="28">          | **Moss Surface**          | `background.elevated`  | `#29352D` | `rgb(41, 53, 45)` | Elevated surfaces for widgets, menus, inputs, and completion panels.                     |
-|            <img src="assets/palette/icons/moss-hover.png" alt="Moss Hover" width="28" height="28">            | **Moss Hover**            | `background.hover`     | `#334137` | `rgb(51, 65, 55)` | A visible but restrained hover and active surface for interactive elements.              |
-|      <img src="assets/palette/icons/forest-selection.png" alt="Forest Selection" width="28" height="28">      | **Forest Selection**      | `background.focus`     | `#3B5043` | `rgb(59, 80, 67)` | A stronger green surface for focused list items and keyboard navigation.                 |
-| <img src="assets/palette/icons/deep-lichen-selection.png" alt="Deep Lichen Selection" width="28" height="28"> | **Deep Lichen Selection** | `background.selection` | `#435F50` | `rgb(67, 95, 80)` | A selection color for highlighting selected text and interface items.                    |
-|     <img src="assets/palette/icons/understory-border.png" alt="Understory Border" width="28" height="28">     | **Understory Border**     | `border.subtle`        | `#344239` | `rgb(52, 66, 57)` | Low-emphasis separators between panels, tabs, and editor groups.                         |
-|            <img src="assets/palette/icons/pine-stone.png" alt="Pine Stone" width="28" height="28">            | **Pine Stone**            | `border.strong`        | `#46564A` | `rgb(70, 86, 74)` | A stronger border for inputs, widgets, focus outlines, and resizable dividers.           |
+## Preview Elaris locally
 
-## Text & neutrals
+To run the theme from source in the VS Code vscode-theme-elaris Development Host:
 
-|                                           Icon                                            | Name            | Token            | HEX       | RGB                  | Description                                                                               |
-| :---------------------------------------------------------------------------------------: | --------------- | ---------------- | --------- | -------------------- | ----------------------------------------------------------------------------------------- |
-| <img src="assets/palette/icons/soft-lichen.png" alt="Soft Lichen" width="28" height="28"> | **Soft Lichen** | `text.primary`   | `#D7DED3` | `rgb(215, 222, 211)` | Primary text with a soft sage cast, avoiding the glare of pure white.                     |
-|   <img src="assets/palette/icons/pale-sage.png" alt="Pale Sage" width="28" height="28">   | **Pale Sage**   | `text.secondary` | `#B7C3B5` | `rgb(183, 195, 181)` | Secondary labels and supporting text; quieter than primary text while remaining readable. |
-| <img src="assets/palette/icons/silver-sage.png" alt="Silver Sage" width="28" height="28"> | **Silver Sage** | `text.muted`     | `#91A093` | `rgb(145, 160, 147)` | Comments, inactive labels, line numbers, and other low-priority information.              |
-|   <img src="assets/palette/icons/dusk-sage.png" alt="Dusk Sage" width="28" height="28">   | **Dusk Sage**   | `text.dim`       | `#728276` | `rgb(114, 130, 118)` | Disabled controls and the most subdued interface details.                                 |
+1. Clone the repository and open it in VS Code:
 
-## Accents & syntax
+   ```bash
+   git clone https://github.com/nodxide/vscode-theme-elaris.git
+   cd vscode-theme-elaris
+   code .
+   ```
 
-|                                             Icon                                              | Name              | Token           | HEX       | RGB                  | Description                                                                                        |
-| :-------------------------------------------------------------------------------------------: | ----------------- | --------------- | --------- | -------------------- | -------------------------------------------------------------------------------------------------- |
-|  <img src="assets/palette/icons/lichen-green.png" alt="Lichen Green" width="28" height="28">  | **Lichen Green**  | `accent.moss`   | `#A8C58D` | `rgb(168, 197, 141)` | The signature Elaris accent for functions, success states, active indicators, and primary actions. |
-| <img src="assets/palette/icons/oxidized-teal.png" alt="Oxidized Teal" width="28" height="28"> | **Oxidized Teal** | `accent.teal`   | `#7EADA5` | `rgb(126, 173, 165)` | A cool, weathered teal for properties, informational states, and secondary syntax accents.         |
-|    <img src="assets/palette/icons/quiet-mint.png" alt="Quiet Mint" width="28" height="28">    | **Quiet Mint**    | `accent.mint`   | `#8EBEAE` | `rgb(142, 190, 174)` | A lighter green-blue for links, hints, constants, and subtle semantic distinctions.                |
-|    <img src="assets/palette/icons/soft-brass.png" alt="Soft Brass" width="28" height="28">    | **Soft Brass**    | `accent.brass`  | `#D5B879` | `rgb(213, 184, 121)` | A warm, muted gold for types, warnings, booleans, and the editor cursor.                           |
-| <img src="assets/palette/icons/mineral-lilac.png" alt="Mineral Lilac" width="28" height="28"> | **Mineral Lilac** | `accent.lilac`  | `#B8A3D4` | `rgb(184, 163, 212)` | A soft mineral purple for numbers, decorators, and selected syntax accents.                        |
-|    <img src="assets/palette/icons/dusty-rose.png" alt="Dusty Rose" width="28" height="28">    | **Dusty Rose**    | `accent.rose`   | `#D58F98` | `rgb(213, 143, 152)` | A softened rose-red for errors, control-flow keywords, and destructive states.                     |
-|  <img src="assets/palette/icons/muted-copper.png" alt="Muted Copper" width="28" height="28">  | **Muted Copper**  | `accent.copper` | `#D39B7D` | `rgb(211, 155, 125)` | An earthy orange for operators, changed lines, tags, and event-related syntax.                     |
-|     <img src="assets/palette/icons/mist-blue.png" alt="Mist Blue" width="28" height="28">     | **Mist Blue**     | `accent.blue`   | `#9EB9D4` | `rgb(158, 185, 212)` | A cool, low-saturation blue for regular expressions and namespace-related distinctions.            |
+2. Press **F5** or select **Run → Start Debugging**. VS Code opens a separate vscode-theme-elaris Development Host window.
+3. In that window, open the Command Palette with **Ctrl+Shift+P** (**Cmd+Shift+P** on macOS).
+4. Run **Preferences: Color Theme** and select **Elaris**.
 
-## Machine-readable palette
-
-The structured source is [`assets/palette/elaris-palette.json`](assets/palette/elaris-palette.json). It contains the same named colors, RGB channels, descriptions, and alpha variants for scripts or future platform ports.
+For vscode-theme-elaris packaging and publishing, consult the [VS Code vscode-theme-elaris publishing documentation](https://code.visualstudio.com/api/working-with-vscode-theme-elariss/publishing-vscode-theme-elaris).
 
 ## Contributing
 
-Suggestions, bug reports, and improvements are welcome. When proposing a color change, include the affected editor element, the current behavior, and the intended improvement.
+Bug reports, suggestions, and focused improvements are welcome. When reporting a visual issue, identify the affected token or workbench element, describe the current and expected behavior, and include a screenshot or minimal reproducible example where practical.
 
-Changes should preserve the overall visual identity of Elaris and avoid introducing colors solely for decoration. When possible, include a screenshot or reproducible example to make the proposed change easier to evaluate.
+Contributions should preserve Elaris's visual hierarchy and the distinction between syntax roles. Prefer refining an existing assignment over introducing a new accent without a clear functional reason. When changing shared colors, review both code syntax and workbench states to avoid unintended side effects.
 
 ## License
 
-Elaris is distributed under the license specified in [`LICENSE`](LICENSE). Review that file for the applicable terms before using, modifying, or redistributing the project.
+Elaris is distributed under the terms specified in [`LICENSE`](LICENSE). Review that file for the applicable conditions on use, modification, and redistribution.
 
 ---
 
 <p align="center">
-  <strong>Elaris</strong>
-  <br>
+  <strong>Elaris</strong><br>
   Thoughtful colors. Clearer code. A quieter workspace.
 </p>

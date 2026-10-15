@@ -1,10 +1,30 @@
 {
   "name": "elaris-theme",
-  "displayName": "Elaris",
-  "description": "A calm, minimal dark color theme for a focused development experience, featuring muted greens, warm neutrals, and subtle, balanced accents.",
-  "version": "0.0.1",
+  "displayName": "Elaris Theme",
+  "description": "A considered dark theme for focused development.",
+  "version": "1.0.0",
   "publisher": "nodxide",
-  "icon": "assets/elaris_gradient_logo_120x120.png",
+  "author": {
+    "name": "Nodxide",
+    "url": "https://github.com/nodxide"
+  },
+  "license": "MIT",
+  "icon": "assets/logo/elaris-logo-120.png",
+  "galleryBanner": {
+    "color": "#17171D",
+    "theme": "dark"
+  },
+  "keywords": [
+    "elaris",
+    "dark theme",
+    "color theme",
+    "vscode theme",
+    "muted colors",
+    "syntax highlighting",
+    "editor theme",
+    "coding theme",
+    "calm theme"
+  ],
   "engines": {
     "vscode": "^1.140.0"
   },
@@ -14,18 +34,30 @@
   "contributes": {
     "themes": [
       {
-        "label": "Elaris Theme",
+        "label": "Elaris",
         "uiTheme": "vs-dark",
-        "path": "./themes/elaris-color-theme.json"
+        "path": "./themes/elaris.json"
       }
     ]
   },
+  "scripts": {
+    "check": "tsx scripts/check.ts",
+    "typecheck:scripts": "tsc --noEmit -p tsconfig.scripts.json",
+    "package:vsix": "tsx scripts/package.ts",
+    "install:local": "tsx scripts/install-local.ts"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodxide/elaris.git"
+    "url": "https://github.com/nodxide/vscode-theme-elaris.git"
   },
-  "homepage": "https://github.com/nodxide/elaris#readme",
+  "homepage": "https://github.com/nodxide/vscode-theme-elaris#readme",
   "bugs": {
-    "url": "https://github.com/nodxide/elaris/issues"
+    "url": "https://github.com/nodxide/vscode-theme-elaris/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@vscode/vsce": "^4.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   }
 }
