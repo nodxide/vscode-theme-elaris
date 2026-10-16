@@ -2,7 +2,7 @@
   "name": "elaris-theme",
   "displayName": "Elaris Theme",
   "description": "A considered dark theme for focused development.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "nodxide",
   "author": {
     "name": "Nodxide",
@@ -39,10 +39,6 @@
         "path": "./themes/elaris.json"
       }
     ]
-  },
-  "scripts": {
-    "package:vsix": "tsx scripts/package.ts",
-    "install:local": "tsx scripts/install-local.ts"
   },
   "repository": {
     "type": "git",
