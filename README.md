@@ -2,7 +2,7 @@
   <img src="assets/logo/elaris-logo-158.png" alt="Elaris logo" width="158" height="158">
 </p>
 
-<h1 align="center">Elaris for Visual Studio Code</h1>
+<h1 align="center">Elaris Theme for Visual Studio Code</h1>
 
 <p align="center">
   A considered dark theme built around deep charcoal, warm ivory, and restrained mineral accents.
