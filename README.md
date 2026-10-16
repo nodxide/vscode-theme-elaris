@@ -10,24 +10,19 @@
 
 <p align="center">
   <a href="https://github.com/nodxide/vscode-theme-elaris">
-    <img src="https://img.shields.io/badge/VS_Code-Color_Theme-252530?style=for-the-badge&logo=visualstudiocode&logoColor=DBE4A8&labelColor=17171D" alt="Visual Studio Code color theme">
+    <img src="https://img.shields.io/badge/VS_Code-Color_Theme-252530?style=for-the-badge&logo=visualstudiocode&logoColor=DBE4A8&labelColor=17171D&color=D2B7EE" alt="Visual Studio Code color theme">
   </a>
-  <img src="https://img.shields.io/badge/Dark-Interface-252530?style=for-the-badge&logo=visualstudiocode&logoColor=DBE4A8&labelColor=17171D" alt="Dark interface">
-  <img src="https://img.shields.io/badge/Mineral-Accents-252530?style=for-the-badge&labelColor=17171D&color=252530" alt="Mineral accent palette">
+  <a href="https://marketplace.visualstudio.com/items?itemName=nodxide.theme-elaris">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/nodxide.theme-elaris?style=for-the-badge&logo=visualstudiocode&logoColor=DBE4A8&label=Installs&labelColor=17171D&color=DBE4A8" alt="VS Code Marketplace installs">
+  </a>
+  <a href="https://github.com/nodxide/vscode-theme-elaris/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-252530?style=for-the-badge&labelColor=17171D&color=B8CEF0" alt="MIT license">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/nodxide/vscode-theme-elaris/stargazers">
-    <img src="https://img.shields.io/github/stars/nodxide/vscode-theme-elaris?style=for-the-badge&logo=github&logoColor=D2B7EE&labelColor=17171D&color=252530" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/nodxide/vscode-theme-elaris/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/nodxide/vscode-theme-elaris?style=for-the-badge&labelColor=17171D&color=252530" alt="MIT license">
-  </a>
-</p>
-
-<!-- <p align="center">
   <img src="assets/elaris-theme-code-preview.png" alt="Elaris theme applied to a code editor" width="1020">
-</p> -->
+</p>
 
 <p align="center">
   <em>Less visual noise. More attention on the code.</em>
