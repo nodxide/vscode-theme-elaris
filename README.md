@@ -2,91 +2,72 @@
   <img src="assets/logo/elaris-logo-158.png" alt="Elaris logo" width="158" height="158">
 </p>
 
-<h1 align="center">Elaris VSCode Color Theme</h1>
+<h1 align="center">Elaris for Visual Studio Code</h1>
+
+<p align="center">
+  A considered dark theme built around deep charcoal, warm ivory, and restrained mineral accents.
+</p>
 
 <p align="center">
   <a href="https://github.com/nodxide/vscode-theme-elaris">
-    <img
-      src="https://img.shields.io/badge/Visual_Studio_Code-Color_Theme-252530?style=for-the-badge&logo=visualstudiocode&logoColor=C0A5D9&labelColor=17171D"
-      alt="Visual Studio Code Theme"
-    >
+    <img src="https://img.shields.io/badge/VS_Code-Color_Theme-252530?style=for-the-badge&logo=visualstudiocode&logoColor=DBE4A8&labelColor=17171D" alt="Visual Studio Code color theme">
   </a>
-  <img
-    src="https://img.shields.io/badge/Dark-Interface-252530?style=for-the-badge&logo=visualstudiocode&logoColor=D0D49A&labelColor=17171D"
-    alt="Dark Interface"
-  >
-  <img
-    src="https://img.shields.io/badge/Pastel-Color_Palette-252530?style=for-the-badge&labelColor=17171D"
-    alt="Pastel Color Palette"
-  >
+  <img src="https://img.shields.io/badge/Dark-Interface-252530?style=for-the-badge&logo=visualstudiocode&logoColor=DBE4A8&labelColor=17171D" alt="Dark interface">
+  <img src="https://img.shields.io/badge/Mineral-Accents-252530?style=for-the-badge&labelColor=17171D&color=252530" alt="Mineral accent palette">
 </p>
 
 <p align="center">
   <a href="https://github.com/nodxide/vscode-theme-elaris/stargazers">
-    <img
-      src="https://img.shields.io/github/stars/nodxide/vscode-theme-elaris?style=for-the-badge&logo=github&logoColor=C0A5D9&labelColor=17171D&color=252530"
-      alt="GitHub Stars"
-    >
+    <img src="https://img.shields.io/github/stars/nodxide/vscode-theme-elaris?style=for-the-badge&logo=github&logoColor=D2B7EE&labelColor=17171D&color=252530" alt="GitHub stars">
   </a>
   <a href="https://github.com/nodxide/vscode-theme-elaris/blob/main/LICENSE">
-    <img
-      src="https://img.shields.io/github/license/nodxide/vscode-theme-elaris?style=for-the-badge&labelColor=17171D&color=252530"
-      alt="License"
-    >
+    <img src="https://img.shields.io/github/license/nodxide/vscode-theme-elaris?style=for-the-badge&labelColor=17171D&color=252530" alt="MIT license">
   </a>
 </p>
 
-<p align="center">
-  <strong>
-    Charcoal surfaces, warm neutrals, and restrained mineral accents — designed to make code easier to scan without turning the editor into a light show.
-  </strong>
-</p>
+<!-- <p align="center">
+  <img src="assets/elaris-theme-code-preview.png" alt="Elaris theme applied to a code editor" width="1020">
+</p> -->
 
 <p align="center">
-  <img src="assets/elaris-theme-code-preview.png" alt="Elaris color theme code preview" width="1020">
+  <em>Less visual noise. More attention on the code.</em>
 </p>
-
-<p align="center">
-  <a href="https://github.com/be5invis/Iosevka">Font - Iosevka</a>
-</p>
-
-<p align="center"><em>Less visual noise. More attention on the code.</em></p>
 
 ---
 
 <h2 align="center">Overview</h2>
 
-Elaris is a dark color theme for Visual Studio Code built around one principle: **the interface should support the code, not compete with it.**
+Elaris is a dark Visual Studio Code theme designed to make code structure easy to scan over long sessions. The editor uses a near-black charcoal surface and warm ivory text, while the surrounding workbench is arranged in quiet graphite layers. Thin borders and low-intensity state fills provide structure without surrounding the code with visual clutter.
 
-The theme combines a near-black charcoal editor with warm off-white text, muted lavender-gray neutrals, and a deliberate set of mineral-inspired syntax accents. Each color has a role: soft lime identifies focus and active states, teal distinguishes properties and links, sage colors strings, cool blue marks types, lilac highlights language keywords, amber identifies literals, and copper adds warmth to selected syntax. Coral is reserved for errors and destructive states.
+Syntax colors are assigned distinct, consistent roles: lilac for keywords, copper for functions, mist blue for types, muted teal for properties, pale sage for strings, and amber for numbers and literals. Soft lime marks focus and active states. Sage green and coral communicate success and errors without making ordinary syntax compete for attention.
 
-That visual language continues throughout the workbench — from tabs and sidebars to terminal output, diagnostics, source control, diffs, debugging, tests, and notebooks. The aim is a cohesive workspace where hierarchy stays clear and emphasis is used intentionally.
+Elaris also carries this visual hierarchy across tabs, sidebars, completion widgets, terminal output, diagnostics, Git decorations, diffs, debugging, tests, and notebooks.
 
 <h2 align="center">Design principles</h2>
 
-### A clear visual hierarchy
+### A layered interface
 
-The editor uses the darkest surface in the workbench. Sidebars, panels, menus, and completion widgets sit on subtly lighter layers. Fine borders and restrained hover states add structure without heavy outlines.
+The editor is the darkest surface. Sidebars and tabs sit one level above it; panels, menus, and widgets use subtly elevated surfaces. Borders stay muted, and hover or selection states are differentiated through small changes in luminance rather than bright blocks.
 
-### Syntax colors with distinct roles
+### Syntax with a purpose
 
-Keywords, functions, types, properties, strings, literals, parameters, comments, and diagnostics use recognizable color roles. This separation helps the eye identify code structure without making every token equally prominent.
+Keywords, callables, types, properties, strings, literals, parameters, comments, and punctuation each have a recognizable role. This makes code structure easier to identify without assigning a different accent to every token.
 
-### Accents with restraint
+### Calm, functional emphasis
 
-Lime is reserved for focus and active states. Teal, sage, blue, lilac, amber, and copper provide useful distinctions, while coral communicates errors. The accents work together as a system rather than as isolated decoration.
+Lime is reserved for focus and active UI states. Teal, sage, blue, lilac, amber, and copper distinguish syntax categories; coral and sage green are primarily used for error and success states. These accents form a shared visual system across the editor and workbench.
 
-### Designed for real workflows
+### Built for everyday development
 
-Elaris styles more than syntax. Selections, bracket matching, search results, inlay hints, suggestions, Git decorations, merge states, terminal output, debugging, tests, and notebook cells are designed to feel like parts of the same workbench.
+The theme includes workbench colors for navigation, search, suggestions, inlay hints, bracket matching, source control, diffs and merges, terminal ANSI colors, debugging, testing, and notebook cells. Syntax highlighting can vary by language grammar, semantic-token provider, and installed extensions.
 
-<h2 align="center">Color palette</h2>
+<h2 align="center">Core palette</h2>
 
-Elaris uses a compact color system with distinct roles for interface surfaces, readable text, syntax, and diagnostics. The [complete reference](palette/Elaris/palette.md)—including HEX values and the intended use of each core color—is maintained separately to keep this README focused.
+The [complete palette reference](palette/Elaris/palette.md) documents color roles, HEX values, terminal ANSI colors, and transparency usage.
 
-<h2 align="center">Preview Elaris locally</h2>
+<h2 align="center">Run Elaris locally</h2>
 
-To run the theme from source in the VS Code vscode-theme-elaris Development Host:
+To test the theme from source, open it in a VS Code Extension Development Host.
 
 1. Clone the repository and open it in VS Code:
 
@@ -96,21 +77,21 @@ To run the theme from source in the VS Code vscode-theme-elaris Development Host
    code .
    ```
 
-2. Press **F5** or select **Run → Start Debugging**. VS Code opens a separate vscode-theme-elaris Development Host window.
-3. In that window, open the Command Palette with **Ctrl+Shift+P** (**Cmd+Shift+P** on macOS).
+2. Press **F5** or choose **Run → Start Debugging**. VS Code opens a separate Extension Development Host window.
+3. In that window, open the Command Palette with **Ctrl+Shift+P** (or **Cmd+Shift+P** on macOS).
 4. Run **Preferences: Color Theme** and select **Elaris**.
 
-For vscode-theme-elaris packaging and publishing, consult the [VS Code vscode-theme-elaris publishing documentation](https://code.visualstudio.com/api/working-with-vscode-theme-elariss/publishing-vscode-theme-elaris).
+For packaging, local VSIX installation, or publishing, see the official [VS Code extension publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension).
 
 <h2 align="center">Contributing</h2>
 
-Bug reports, suggestions, and focused improvements are welcome. When reporting a visual issue, identify the affected token or workbench element, describe the current and expected behavior, and include a screenshot or minimal reproducible example where practical.
+Bug reports, palette feedback, and focused improvements are welcome. For visual issues, identify the affected token or workbench element, describe the current and expected behavior, and include a screenshot or minimal reproduction when possible.
 
-Contributions should preserve Elaris's visual hierarchy and the distinction between syntax roles. Prefer refining an existing assignment over introducing a new accent without a clear functional reason. When changing shared colors, review both code syntax and workbench states to avoid unintended side effects.
+When changing colors, preserve the existing hierarchy and syntax-role distinctions. Prefer refining an existing assignment over introducing a new accent without a clear functional reason. Review both syntax and workbench states to catch unintended side effects.
 
 <h2 align="center">License</h2>
 
-Elaris is distributed under the terms specified in [`LICENSE`](LICENSE). Review that file for the applicable conditions on use, modification, and redistribution.
+Elaris is distributed under the [MIT License](LICENSE).
 
 ---
 
